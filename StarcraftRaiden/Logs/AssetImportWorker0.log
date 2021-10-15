@@ -1,0 +1,1000 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 7  (6.1.0) 64bit' Language: 'zh' Physical Memory: 16317 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\AllUnity\2020.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/unity protect/StarcraftRaidenNew/StarcraftRaidenNew
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52158
+Successfully changed project path to: D:/unity protect/StarcraftRaidenNew/StarcraftRaidenNew
+D:/unity protect/StarcraftRaidenNew/StarcraftRaidenNew
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 45.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path D:/AllUnity/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity protect/StarcraftRaidenNew/StarcraftRaidenNew/Assets
+GfxDevice: creating device client; threaded=0
+d3d11: CreateDXGIFactory2(...) not found, fallbacking to CreateDXGIFactory1(...).
+d3d11: QueryInterface(IDXGIFactory5) failed (80004002).
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8077 MB
+    Driver:   27.21.14.6611
+Initialize mono
+Mono path[0] = 'D:/AllUnity/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'D:/AllUnity/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/AllUnity/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/AllUnity/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/AllUnity/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000797 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 48.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.947 seconds
+Domain Reload Profiling:
+	ReloadAssembly (948ms)
+		BeginReloadAssembly (46ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (405ms)
+			LoadAssemblies (45ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (145ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (167ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000949 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 48.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.868 seconds
+Domain Reload Profiling:
+	ReloadAssembly (869ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (693ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (213ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (257ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (132ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.9 MB.
+System memory in use after: 113.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2668.
+Total: 3.267839 ms (FindLiveObjects: 0.333815 ms CreateObjectMapping: 0.112373 ms MarkObjects: 2.735418 ms  DeleteObjects: 0.084731 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Audio/Characters/Zerg/1/Zerg1_Start.mp3
+  artifactKey: Guid(97a0ff9fe740db1439d13f20b1579d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/1/Zerg1_Start.mp3 using Guid(97a0ff9fe740db1439d13f20b1579d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec0dde8afa72fc50b67e7bb07dad357') in 0.101821 seconds 
+  Import took 0.105292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.936060 seconds.
+  path: Assets/Audio/Characters/Zerg/1/Zerg1_Dead1.mp3
+  artifactKey: Guid(98e64e772ac810144981d0ac4be6f10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/1/Zerg1_Dead1.mp3 using Guid(98e64e772ac810144981d0ac4be6f10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0d0d189af09d86753170847f07d8d8') in 0.008434 seconds 
+  Import took 0.012546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.044520 seconds.
+  path: Assets/Audio/Characters/Zerg/1/自殺蟲死亡2.mp3
+  artifactKey: Guid(fa4094138a7c90a4f9eaf0634a6d67f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/1/自殺蟲死亡2.mp3 using Guid(fa4094138a7c90a4f9eaf0634a6d67f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc518ca03fdccbeca5245e05aab13b4') in 0.006716 seconds 
+  Import took 0.010502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.740402 seconds.
+  path: Assets/Audio/Characters/Zerg/1/Zerg1_Dead2.mp3
+  artifactKey: Guid(fa4094138a7c90a4f9eaf0634a6d67f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/1/Zerg1_Dead2.mp3 using Guid(fa4094138a7c90a4f9eaf0634a6d67f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3bc17b95fbe792f43faf3c7148f671') in 0.009840 seconds 
+  Import took 0.015800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.465734 seconds.
+  path: Assets/Audio/Characters/Zerg/2/飛螳出場.mp3
+  artifactKey: Guid(cfcfe9ef8d277ea45867780dfdfbb07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/2/飛螳出場.mp3 using Guid(cfcfe9ef8d277ea45867780dfdfbb07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854ef0751ef6bc2fe50fdc84dd65d198') in 0.007508 seconds 
+  Import took 0.011187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.792730 seconds.
+  path: Assets/Audio/Characters/Zerg/2/Zerg2_Start.mp3
+  artifactKey: Guid(cfcfe9ef8d277ea45867780dfdfbb07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/2/Zerg2_Start.mp3 using Guid(cfcfe9ef8d277ea45867780dfdfbb07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d217b7165004fc7f16b1bd8736b33f8') in 0.006466 seconds 
+  Import took 0.010490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.045250 seconds.
+  path: Assets/Audio/Characters/Zerg/2/飛螳攻擊1.mp3
+  artifactKey: Guid(a6d6b4f909a333543b6291d24259594e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/2/飛螳攻擊1.mp3 using Guid(a6d6b4f909a333543b6291d24259594e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0526987f95b8aebe3b5797fb5ff5ea8') in 0.036594 seconds 
+  Import took 0.040255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.661301 seconds.
+  path: Assets/Audio/Characters/Zerg/2/Zerg2_Attack1.mp3
+  artifactKey: Guid(a6d6b4f909a333543b6291d24259594e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/2/Zerg2_Attack1.mp3 using Guid(a6d6b4f909a333543b6291d24259594e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18909e99ee4f2c81ca264db64afc1b70') in 0.007262 seconds 
+  Import took 0.011516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.368584 seconds.
+  path: Assets/Audio/Characters/Zerg/2/飛螳攻擊2.mp3
+  artifactKey: Guid(ddb493b734f945f4e8cafe5c967abf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/2/飛螳攻擊2.mp3 using Guid(ddb493b734f945f4e8cafe5c967abf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b25ef8f2789936b33aa0b43bad142fb') in 0.008106 seconds 
+  Import took 0.012074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.609930 seconds.
+  path: Assets/Audio/Characters/Zerg/2/Zerg2_Attack2.mp3
+  artifactKey: Guid(ddb493b734f945f4e8cafe5c967abf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/2/Zerg2_Attack2.mp3 using Guid(ddb493b734f945f4e8cafe5c967abf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9721afc0bf13601e1968c490c647c8') in 0.007303 seconds 
+  Import took 0.011930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.786882 seconds.
+  path: Assets/Audio/Characters/Zerg/2/飛螳攻擊3.mp3
+  artifactKey: Guid(7e7b842a369ba3a45a506b0249452e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/2/飛螳攻擊3.mp3 using Guid(7e7b842a369ba3a45a506b0249452e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2b3ef1bfcc43a58488c718f5a12c6a') in 0.007436 seconds 
+  Import took 0.011284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.231158 seconds.
+  path: Assets/Audio/Characters/Zerg/2/Zerg2_Attack3.mp3
+  artifactKey: Guid(7e7b842a369ba3a45a506b0249452e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/2/Zerg2_Attack3.mp3 using Guid(7e7b842a369ba3a45a506b0249452e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd2f21c074ae94698da36334a6f854e') in 0.007603 seconds 
+  Import took 0.012229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.622617 seconds.
+  path: Assets/Audio/Characters/Zerg/2/Zerg2_Attack4.mp3
+  artifactKey: Guid(b5026875d05ec0a40ae924cd080036e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/2/Zerg2_Attack4.mp3 using Guid(b5026875d05ec0a40ae924cd080036e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7696bcd8f3aa651dc8953f59619be6f') in 0.007813 seconds 
+  Import took 0.012424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.889004 seconds.
+  path: Assets/Audio/Characters/Zerg/2/Zerg2_Dead1.mp3
+  artifactKey: Guid(3acec3c4a1f653e41bae5b28a6879318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/2/Zerg2_Dead1.mp3 using Guid(3acec3c4a1f653e41bae5b28a6879318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062254cce9431e7a793a2f99dbb5bfb4') in 0.007367 seconds 
+  Import took 0.011772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.619497 seconds.
+  path: Assets/Audio/Characters/Zerg/2/Zerg2_Dead2.mp3
+  artifactKey: Guid(4140ccca50493cc4888c404ba5d5e842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/2/Zerg2_Dead2.mp3 using Guid(4140ccca50493cc4888c404ba5d5e842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b74c7ddd34bb286865430249756f45') in 0.007695 seconds 
+  Import took 0.012618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.720363 seconds.
+  path: Assets/Audio/Characters/Zerg/2/Zerg2_Howel1.mp3
+  artifactKey: Guid(9e142692ab38c6944ba92f823175b41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/2/Zerg2_Howel1.mp3 using Guid(9e142692ab38c6944ba92f823175b41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae574500106eab933ca3e66ad2e10a46') in 0.008856 seconds 
+  Import took 0.012910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.013445 seconds.
+  path: Assets/Audio/Characters/Zerg/2/Zerg2_Howel2.mp3
+  artifactKey: Guid(5a0c09b465f64394dbf4aca7754425c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/2/Zerg2_Howel2.mp3 using Guid(5a0c09b465f64394dbf4aca7754425c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe308f6f898bf3bf580bb1ecdfc26c3a') in 0.007789 seconds 
+  Import took 0.011990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.119551 seconds.
+  path: Assets/Audio/Characters/Zerg/2/Zerg2_Howel3.mp3
+  artifactKey: Guid(fb9793fac511bff48b45bee24f3de598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/2/Zerg2_Howel3.mp3 using Guid(fb9793fac511bff48b45bee24f3de598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79f205e348b46447b77953cdcbaaeef') in 0.007175 seconds 
+  Import took 0.011965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.343169 seconds.
+  path: Assets/Audio/Characters/Zerg/3/腐化飛蟲出場.mp3
+  artifactKey: Guid(26a29b856194a6c4d9dafbd372d56a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/3/腐化飛蟲出場.mp3 using Guid(26a29b856194a6c4d9dafbd372d56a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013a264eaafb4bc2f0606fa7dfb77810') in 0.007875 seconds 
+  Import took 0.011857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.434472 seconds.
+  path: Assets/Audio/Characters/Zerg/3/Zerg3_Start.mp3
+  artifactKey: Guid(26a29b856194a6c4d9dafbd372d56a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/3/Zerg3_Start.mp3 using Guid(26a29b856194a6c4d9dafbd372d56a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd284abdc64f6a22aedafedfd5c317f8a') in 0.007047 seconds 
+  Import took 0.011436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.221728 seconds.
+  path: Assets/Audio/Characters/Zerg/3/Zerg3_Fire1.mp3
+  artifactKey: Guid(1554b59a8bcc8ca4caf445ac190d0866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/3/Zerg3_Fire1.mp3 using Guid(1554b59a8bcc8ca4caf445ac190d0866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de2ed05d81c7282f7f31174f9ef7ffa') in 0.007797 seconds 
+  Import took 0.012147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.293495 seconds.
+  path: Assets/Audio/Characters/Zerg/3/腐化飛蟲射擊2.mp3
+  artifactKey: Guid(2549170f1b2e9eb40a39e418ccd91720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/3/腐化飛蟲射擊2.mp3 using Guid(2549170f1b2e9eb40a39e418ccd91720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ae2bad2697dfdb702eee5743584636') in 0.007157 seconds 
+  Import took 0.011127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.416635 seconds.
+  path: Assets/Audio/Characters/Zerg/3/Zerg3_Fire2.mp3
+  artifactKey: Guid(2549170f1b2e9eb40a39e418ccd91720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/3/Zerg3_Fire2.mp3 using Guid(2549170f1b2e9eb40a39e418ccd91720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a401ceacf6ee8541849781149bc604') in 0.007653 seconds 
+  Import took 0.012511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.408525 seconds.
+  path: Assets/Audio/Characters/Zerg/3/腐化飛蟲射擊3.mp3
+  artifactKey: Guid(ec1a66669ef057d46ad47d3fb0ca9456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/3/腐化飛蟲射擊3.mp3 using Guid(ec1a66669ef057d46ad47d3fb0ca9456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fdded185445f7a05651c2bd076f29f') in 0.007567 seconds 
+  Import took 0.011815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.311559 seconds.
+  path: Assets/Audio/Characters/Zerg/3/Zerg3_Fire3.mp3
+  artifactKey: Guid(ec1a66669ef057d46ad47d3fb0ca9456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/3/Zerg3_Fire3.mp3 using Guid(ec1a66669ef057d46ad47d3fb0ca9456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78448b32a00f9d3c44b60630c442164') in 0.008743 seconds 
+  Import took 0.013042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.610785 seconds.
+  path: Assets/Audio/Characters/Zerg/3/腐化飛蟲射擊4.mp3
+  artifactKey: Guid(0ddfbe0d6d2fc344c932b563847c5cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/3/腐化飛蟲射擊4.mp3 using Guid(0ddfbe0d6d2fc344c932b563847c5cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2032a16e2aff30e93267d5fbea7179') in 0.008002 seconds 
+  Import took 0.022954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000958 seconds.
+  path: Assets/Audio/Characters/Zerg/3/腐化飛蟲射擊4.mp3
+  artifactKey: Guid(0ddfbe0d6d2fc344c932b563847c5cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/3/腐化飛蟲射擊4.mp3 using Guid(0ddfbe0d6d2fc344c932b563847c5cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2032a16e2aff30e93267d5fbea7179') in 0.008330 seconds 
+  Import took 0.012144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.615894 seconds.
+  path: Assets/Audio/Characters/Zerg/3/Zerg3_Fire4.mp3
+  artifactKey: Guid(0ddfbe0d6d2fc344c932b563847c5cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/3/Zerg3_Fire4.mp3 using Guid(0ddfbe0d6d2fc344c932b563847c5cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96aafbfd22661982a555a032edd8ac73') in 0.007132 seconds 
+  Import took 0.011988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.612833 seconds.
+  path: Assets/Audio/Characters/Zerg/3/Zerg3_Howel1.mp3
+  artifactKey: Guid(7d3b9d688ba36a04d9ff676b616b7bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/3/Zerg3_Howel1.mp3 using Guid(7d3b9d688ba36a04d9ff676b616b7bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b557a3577f6acc7b3b97b623b679f9') in 0.008800 seconds 
+  Import took 0.013213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.592265 seconds.
+  path: Assets/Audio/Characters/Zerg/3/Zerg3_Howel2.mp3
+  artifactKey: Guid(c33f8da863dce6b48b0a22f9ed6ab613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/3/Zerg3_Howel2.mp3 using Guid(c33f8da863dce6b48b0a22f9ed6ab613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c14f7aed0d70ad3c2bc050c9499290') in 0.007651 seconds 
+  Import took 0.012041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.587069 seconds.
+  path: Assets/Audio/Characters/Zerg/3/Zerg3_Howel3.mp3
+  artifactKey: Guid(36346b5413c934045a0f2ebd823ab0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/3/Zerg3_Howel3.mp3 using Guid(36346b5413c934045a0f2ebd823ab0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c559d472d00796bf44b05bcc740642') in 0.007131 seconds 
+  Import took 0.011611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.411737 seconds.
+  path: Assets/Audio/Characters/Zerg/3/腐化飛蟲死亡1.mp3
+  artifactKey: Guid(89e0a8eea81d9354bad9c9c01a44eb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/3/腐化飛蟲死亡1.mp3 using Guid(89e0a8eea81d9354bad9c9c01a44eb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9f9ff13a74727afcf4e5f4e3ea92e1') in 0.008097 seconds 
+  Import took 0.012332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001964 seconds.
+  path: Assets/Audio/Characters/Zerg/3/腐化飛蟲死亡1.mp3
+  artifactKey: Guid(89e0a8eea81d9354bad9c9c01a44eb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/3/腐化飛蟲死亡1.mp3 using Guid(89e0a8eea81d9354bad9c9c01a44eb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9f9ff13a74727afcf4e5f4e3ea92e1') in 0.008019 seconds 
+  Import took 0.012024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.966558 seconds.
+  path: Assets/Audio/Characters/Zerg/3/Zerg3_Dead1.mp3
+  artifactKey: Guid(89e0a8eea81d9354bad9c9c01a44eb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/3/Zerg3_Dead1.mp3 using Guid(89e0a8eea81d9354bad9c9c01a44eb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071932e44c67c86e4fd40160fc45dc4a') in 0.007595 seconds 
+  Import took 0.011903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.269458 seconds.
+  path: Assets/Audio/Characters/Zerg/3/腐化飛蟲死亡2.mp3
+  artifactKey: Guid(e305a3b0edacea745899586d4b840bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/3/腐化飛蟲死亡2.mp3 using Guid(e305a3b0edacea745899586d4b840bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efda3070369b7a36ae0e2b6d3376de29') in 0.007225 seconds 
+  Import took 0.011117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.186426 seconds.
+  path: Assets/Audio/Characters/Zerg/3/Zerg3_Dead2.mp3
+  artifactKey: Guid(e305a3b0edacea745899586d4b840bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/3/Zerg3_Dead2.mp3 using Guid(e305a3b0edacea745899586d4b840bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957d9e4f69221ded8b4bb9544c73210c') in 0.007792 seconds 
+  Import took 0.011898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.938001 seconds.
+  path: Assets/Audio/Characters/Zerg/3/腐化飛蟲死亡3.mp3
+  artifactKey: Guid(2c5bdf2a93f1b3a488728a5a10ae752e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/3/腐化飛蟲死亡3.mp3 using Guid(2c5bdf2a93f1b3a488728a5a10ae752e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee66d2dfac3b1e43181efe60a09eaa2') in 0.007609 seconds 
+  Import took 0.023967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.562687 seconds.
+  path: Assets/Audio/Characters/Zerg/3/Zerg3_Dead3.mp3
+  artifactKey: Guid(2c5bdf2a93f1b3a488728a5a10ae752e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/3/Zerg3_Dead3.mp3 using Guid(2c5bdf2a93f1b3a488728a5a10ae752e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68bcc315686060164e8f9fd18aecd066') in 0.007070 seconds 
+  Import took 0.011613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.078379 seconds.
+  path: Assets/Audio/Characters/Zerg/3/Zerg3_DeadHowel1.mp3
+  artifactKey: Guid(5027d1fe226e1b64189fd2a0908ee336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/3/Zerg3_DeadHowel1.mp3 using Guid(5027d1fe226e1b64189fd2a0908ee336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be104a0b987b7de355f8d07470a2d24c') in 0.007135 seconds 
+  Import took 0.011477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.071622 seconds.
+  path: Assets/Audio/Characters/Zerg/3/Zerg3_DeadHowel2.mp3
+  artifactKey: Guid(c0d7b096256058141b5b4d020f50296a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/3/Zerg3_DeadHowel2.mp3 using Guid(c0d7b096256058141b5b4d020f50296a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1bf88bfec11f849f56ac32a64a07949') in 0.007513 seconds 
+  Import took 0.012529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.375465 seconds.
+  path: Assets/Audio/Characters/Zerg/boss1/寄生王蟲出場.mp3
+  artifactKey: Guid(4e12ac7a827642845b4f41a0bd15e28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss1/寄生王蟲出場.mp3 using Guid(4e12ac7a827642845b4f41a0bd15e28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451594a4d03d842e434029d04fcbd04b') in 0.009793 seconds 
+  Import took 0.014879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.907169 seconds.
+  path: Assets/Audio/Characters/Zerg/boss1/Boss_Start.mp3
+  artifactKey: Guid(4e12ac7a827642845b4f41a0bd15e28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss1/Boss_Start.mp3 using Guid(4e12ac7a827642845b4f41a0bd15e28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c810792a84b208655a6c05ddee7f7696') in 0.007824 seconds 
+  Import took 0.013343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.961804 seconds.
+  path: Assets/Audio/Characters/Zerg/boss1/寄生王蟲死亡.mp3
+  artifactKey: Guid(8368006d4771f8d4c845a1f60aada737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss1/寄生王蟲死亡.mp3 using Guid(8368006d4771f8d4c845a1f60aada737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84b9fe8d575597d1244ba42513f1ba2') in 0.026962 seconds 
+  Import took 0.031263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.928710 seconds.
+  path: Assets/Audio/Characters/Zerg/boss1/Boss_Dead1.mp3
+  artifactKey: Guid(8368006d4771f8d4c845a1f60aada737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss1/Boss_Dead1.mp3 using Guid(8368006d4771f8d4c845a1f60aada737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab0b524124c2c61943b2c1b45756147') in 0.009587 seconds 
+  Import took 0.053441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.082348 seconds.
+  path: Assets/Audio/Characters/Zerg/boss1/Boss_Dead2.mp3
+  artifactKey: Guid(67f00c958cddb014c9897a610ba782a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss1/Boss_Dead2.mp3 using Guid(67f00c958cddb014c9897a610ba782a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10eca7ac3be05ceae341ea449b9f9ff') in 0.007904 seconds 
+  Import took 0.013578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047266 seconds.
+  path: Assets/Audio/Characters/Zerg/boss1/寄生王蟲死亡3.mp3
+  artifactKey: Guid(90946e77b09d008479f282bc01d3b9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss1/寄生王蟲死亡3.mp3 using Guid(90946e77b09d008479f282bc01d3b9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67ac572d8b350dce8301e1a3c2982cf') in 0.009426 seconds 
+  Import took 0.013845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.277357 seconds.
+  path: Assets/Audio/Characters/Zerg/boss1/Boss_Dead3.mp3
+  artifactKey: Guid(90946e77b09d008479f282bc01d3b9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss1/Boss_Dead3.mp3 using Guid(90946e77b09d008479f282bc01d3b9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8325164f3bd08f85e7866b29c5a02b') in 0.008389 seconds 
+  Import took 0.014217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.947127 seconds.
+  path: Assets/Audio/Characters/Zerg/boss1/Boss_DeadHowel.mp3
+  artifactKey: Guid(11a123dd9afb160488bbf8ac4e44e783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss1/Boss_DeadHowel.mp3 using Guid(11a123dd9afb160488bbf8ac4e44e783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca8e34aedf3dd79ed8dba9a79b415d7') in 0.008040 seconds 
+  Import took 0.013645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.927388 seconds.
+  path: Assets/Audio/Characters/Zerg/boss1/Boss_AOE1.mp3
+  artifactKey: Guid(5b4f991f1fd5c7c4e84bc6b51ba06d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss1/Boss_AOE1.mp3 using Guid(5b4f991f1fd5c7c4e84bc6b51ba06d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e063e4c99b809e76bb386eb67b55bc') in 0.009014 seconds 
+  Import took 0.013687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.232200 seconds.
+  path: Assets/Audio/Characters/Zerg/boss1/寄生王蟲毒霧2.mp3
+  artifactKey: Guid(d30d00d998e78494ca86a47318ee0871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss1/寄生王蟲毒霧2.mp3 using Guid(d30d00d998e78494ca86a47318ee0871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ec73e4b1ce9d652da4c34c3b9a771a') in 0.007852 seconds 
+  Import took 0.012862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.114554 seconds.
+  path: Assets/Audio/Characters/Zerg/boss1/Boss_AOE2.mp3
+  artifactKey: Guid(d30d00d998e78494ca86a47318ee0871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss1/Boss_AOE2.mp3 using Guid(d30d00d998e78494ca86a47318ee0871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7d78a3bfc87ee02f7fcec4df471331') in 0.008423 seconds 
+  Import took 0.013170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.960588 seconds.
+  path: Assets/Audio/Characters/Zerg/boss1/Boss_Fire1.mp3
+  artifactKey: Guid(9280a7710e2274849bdf516937f12058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss1/Boss_Fire1.mp3 using Guid(9280a7710e2274849bdf516937f12058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88814b219c019bbd0a76dd99d5883acc') in 0.007558 seconds 
+  Import took 0.012443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.400638 seconds.
+  path: Assets/Audio/Characters/Zerg/boss1/Boss_Fire2.mp3
+  artifactKey: Guid(1bfe4e290694eef45ad8bfea4257a11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss1/Boss_Fire2.mp3 using Guid(1bfe4e290694eef45ad8bfea4257a11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891f8a5616b540d629be30fbd52ee41b') in 0.007683 seconds 
+  Import took 0.011995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.514896 seconds.
+  path: Assets/Audio/Characters/Zerg/boss1/寄生王蟲吼叫1.mp3
+  artifactKey: Guid(9e0cb38112b3c184bb5d733b2c5517ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss1/寄生王蟲吼叫1.mp3 using Guid(9e0cb38112b3c184bb5d733b2c5517ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996523f55dd4091c363d001a7df976d8') in 0.008995 seconds 
+  Import took 0.013264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.064622 seconds.
+  path: Assets/Audio/Characters/Zerg/boss1/Boss_Howel1.mp3
+  artifactKey: Guid(9e0cb38112b3c184bb5d733b2c5517ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss1/Boss_Howel1.mp3 using Guid(9e0cb38112b3c184bb5d733b2c5517ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0157d302ed9c3d354f12ba94e66b7297') in 0.010486 seconds 
+  Import took 0.015451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.999533 seconds.
+  path: Assets/Audio/Characters/Zerg/boss1/寄生王蟲吼叫2.mp3
+  artifactKey: Guid(159d870dd4233c545bf33481a6516ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss1/寄生王蟲吼叫2.mp3 using Guid(159d870dd4233c545bf33481a6516ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0944fda46481de62b57504b1de18891a') in 0.008135 seconds 
+  Import took 0.030886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.759256 seconds.
+  path: Assets/Audio/Characters/Zerg/boss1/Boss_Howel2.mp3
+  artifactKey: Guid(159d870dd4233c545bf33481a6516ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss1/Boss_Howel2.mp3 using Guid(159d870dd4233c545bf33481a6516ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b1ae0f16b6153177f7c3cb9c7eaeee') in 0.010516 seconds 
+  Import took 0.015007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.508655 seconds.
+  path: Assets/Audio/Characters/Zerg/boss1/寄生王蟲吼叫3.mp3
+  artifactKey: Guid(fffafe580c9b4a94cb189286bb40e43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss1/寄生王蟲吼叫3.mp3 using Guid(fffafe580c9b4a94cb189286bb40e43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ffa7cd35da631cf308d7c77b2dd886') in 0.007549 seconds 
+  Import took 0.012583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006174 seconds.
+  path: Assets/Audio/Characters/Zerg/boss1/寄生王蟲吼叫3.mp3
+  artifactKey: Guid(fffafe580c9b4a94cb189286bb40e43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss1/寄生王蟲吼叫3.mp3 using Guid(fffafe580c9b4a94cb189286bb40e43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ffa7cd35da631cf308d7c77b2dd886') in 0.007739 seconds 
+  Import took 0.012805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.565885 seconds.
+  path: Assets/Audio/Characters/Zerg/boss1/Boss_Howel3.mp3
+  artifactKey: Guid(fffafe580c9b4a94cb189286bb40e43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss1/Boss_Howel3.mp3 using Guid(fffafe580c9b4a94cb189286bb40e43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a855efa407cfa5959976d698837d8e') in 0.007518 seconds 
+  Import took 0.012357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.242100 seconds.
+  path: Assets/Audio/Characters/Zerg/boss1/寄生王蟲吼叫4.mp3
+  artifactKey: Guid(4a6927873317fbf48a6b56b81acc9a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss1/寄生王蟲吼叫4.mp3 using Guid(4a6927873317fbf48a6b56b81acc9a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee047d06b54cfc51f9969c1b8856fa3') in 0.008096 seconds 
+  Import took 0.012123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.323684 seconds.
+  path: Assets/Audio/Characters/Zerg/boss1/Boss_Howel4.mp3
+  artifactKey: Guid(4a6927873317fbf48a6b56b81acc9a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss1/Boss_Howel4.mp3 using Guid(4a6927873317fbf48a6b56b81acc9a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9200a4bd8ec232278c1bc607fe644506') in 0.008507 seconds 
+  Import took 0.013072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.186053 seconds.
+  path: Assets/Audio/Characters/Zerg/boss1/寄生王蟲吼叫5.mp3
+  artifactKey: Guid(aeb6c34fd0007974db099bdc90e962aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss1/寄生王蟲吼叫5.mp3 using Guid(aeb6c34fd0007974db099bdc90e962aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c10232e3b86912d1bcf2b5c3fc0764') in 0.007155 seconds 
+  Import took 0.011133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.008050 seconds.
+  path: Assets/Audio/Characters/Zerg/boss1/Boss_Howel5.mp3
+  artifactKey: Guid(aeb6c34fd0007974db099bdc90e962aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss1/Boss_Howel5.mp3 using Guid(aeb6c34fd0007974db099bdc90e962aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6319bbbcdcabb39572ea955897887375') in 0.010457 seconds 
+  Import took 0.014627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.145215 seconds.
+  path: Assets/Audio/Characters/Zerg/boss1/Boss_Create.mp3
+  artifactKey: Guid(563e1656c2c4d5c4b893273d20a3343a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss1/Boss_Create.mp3 using Guid(563e1656c2c4d5c4b893273d20a3343a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aaf7a54d3ac3520119fd5cdea13bba7') in 0.007854 seconds 
+  Import took 0.013126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.214913 seconds.
+  path: Assets/Audio/Characters/Zerg/boss2/Boss2_Start.mp3
+  artifactKey: Guid(17bad3932067e0442aaa43d49a3d97be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss2/Boss2_Start.mp3 using Guid(17bad3932067e0442aaa43d49a3d97be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb77c00cbae56160a8cb6c9c2f9e18e5') in 0.010595 seconds 
+  Import took 0.015048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.378172 seconds.
+  path: Assets/Audio/Characters/Zerg/boss2/利維坦死亡.mp3
+  artifactKey: Guid(82a9f88785c252547806704f46584d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss2/利維坦死亡.mp3 using Guid(82a9f88785c252547806704f46584d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f970d6274a0af35c2b577ae494251d') in 0.006851 seconds 
+  Import took 0.010875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.728315 seconds.
+  path: Assets/Audio/Characters/Zerg/boss2/Boss2_Dead.mp3
+  artifactKey: Guid(82a9f88785c252547806704f46584d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss2/Boss2_Dead.mp3 using Guid(82a9f88785c252547806704f46584d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f393029f978079e0ccbe1eb775f5c363') in 0.009820 seconds 
+  Import took 0.014226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.070056 seconds.
+  path: Assets/Audio/Characters/Zerg/boss2/Boss2_Charge.mp3
+  artifactKey: Guid(28996df6285ab504880bf31b7f814190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss2/Boss2_Charge.mp3 using Guid(28996df6285ab504880bf31b7f814190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1541eb617d0aa6826d92a6c53bf6a7') in 0.011780 seconds 
+  Import took 0.042010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.556017 seconds.
+  path: Assets/Audio/Characters/Zerg/boss2/Boss2_Beam.mp3
+  artifactKey: Guid(e80bf9bcb788aec4ea720b375b9ea5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss2/Boss2_Beam.mp3 using Guid(e80bf9bcb788aec4ea720b375b9ea5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d79def494bf43e962b0196c13be0c91') in 0.009996 seconds 
+  Import took 0.015302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.902120 seconds.
+  path: Assets/Audio/Characters/Zerg/boss2/Boss2_Howel1.mp3
+  artifactKey: Guid(9d3948a2fcc5eb64aa69bf4242242b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss2/Boss2_Howel1.mp3 using Guid(9d3948a2fcc5eb64aa69bf4242242b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf7d909e304826e5b91f195a2a0b2ba') in 0.010225 seconds 
+  Import took 0.014477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.371458 seconds.
+  path: Assets/Audio/Characters/Zerg/boss2/利維坦吼叫2.mp3
+  artifactKey: Guid(bf63fe5549aa4f14ead74f38b105e007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss2/利維坦吼叫2.mp3 using Guid(bf63fe5549aa4f14ead74f38b105e007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3b786622d19048b6d2fcd34525f0b7') in 0.010573 seconds 
+  Import took 0.014977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002034 seconds.
+  path: Assets/Audio/Characters/Zerg/boss2/利維坦吼叫2.mp3
+  artifactKey: Guid(bf63fe5549aa4f14ead74f38b105e007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss2/利維坦吼叫2.mp3 using Guid(bf63fe5549aa4f14ead74f38b105e007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3b786622d19048b6d2fcd34525f0b7') in 0.008770 seconds 
+  Import took 0.012650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.367209 seconds.
+  path: Assets/Audio/Characters/Zerg/boss2/Boss2_Howel2.mp3
+  artifactKey: Guid(bf63fe5549aa4f14ead74f38b105e007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss2/Boss2_Howel2.mp3 using Guid(bf63fe5549aa4f14ead74f38b105e007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb7f5bb19be5fd08ce5fe1fe72fae07') in 0.009839 seconds 
+  Import took 0.014015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.213425 seconds.
+  path: Assets/Audio/Characters/Zerg/boss2/利維坦吼叫3.mp3
+  artifactKey: Guid(46be36d8fa34f8c4e8186c99e1ec74d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss2/利維坦吼叫3.mp3 using Guid(46be36d8fa34f8c4e8186c99e1ec74d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b68cdfe3fd064969d948e90fd06787') in 0.006462 seconds 
+  Import took 0.010574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.041467 seconds.
+  path: Assets/Audio/Characters/Zerg/boss2/Boss2_Howel3.mp3
+  artifactKey: Guid(46be36d8fa34f8c4e8186c99e1ec74d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss2/Boss2_Howel3.mp3 using Guid(46be36d8fa34f8c4e8186c99e1ec74d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d5123dae589d61474713c3664a069e') in 0.006611 seconds 
+  Import took 0.010305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.487233 seconds.
+  path: Assets/Audio/Characters/Zerg/boss2/ZergFire1.mp3
+  artifactKey: Guid(29e54a65c5e75fd419f8479b418fc65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss2/ZergFire1.mp3 using Guid(29e54a65c5e75fd419f8479b418fc65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf4dca393b5272d27cc05a945ef811a') in 0.007398 seconds 
+  Import took 0.011944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.993035 seconds.
+  path: Assets/Audio/Characters/Zerg/boss2/ZergFire2.mp3
+  artifactKey: Guid(a5c76c980d761c946be289ad6508fa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss2/ZergFire2.mp3 using Guid(a5c76c980d761c946be289ad6508fa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5926d3474b8f9732c88e68c6b9e151') in 0.009581 seconds 
+  Import took 0.013974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.911252 seconds.
+  path: Assets/Audio/Characters/Zerg/boss2/ZergFire3.mp3
+  artifactKey: Guid(198ab31b087e5954d99178652877223e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss2/ZergFire3.mp3 using Guid(198ab31b087e5954d99178652877223e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69fb9e08eb66192fbe82ec742efa1caa') in 0.007482 seconds 
+  Import took 0.012646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.227837 seconds.
+  path: Assets/Audio/Characters/Zerg/boss2/ZergFire4.mp3
+  artifactKey: Guid(06d193e504701b74a9984b27d99969b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss2/ZergFire4.mp3 using Guid(06d193e504701b74a9984b27d99969b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d653306162fe74889fa895688265630') in 0.011434 seconds 
+  Import took 0.015952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.613771 seconds.
+  path: Assets/Audio/Characters/Zerg/boss2/ZergFire5.mp3
+  artifactKey: Guid(d34518f8fed9abc438c004dec55b5f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss2/ZergFire5.mp3 using Guid(d34518f8fed9abc438c004dec55b5f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855b09d050a10e500470fe6849f0ada3') in 0.007962 seconds 
+  Import took 0.012621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.528172 seconds.
+  path: Assets/Audio/Characters/Zerg/boss2/ZergFire6.mp3
+  artifactKey: Guid(762dfcb6818e3c741b45825e7ac9092f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss2/ZergFire6.mp3 using Guid(762dfcb6818e3c741b45825e7ac9092f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed537fcd490342512b4b49f84fcd546a') in 0.010302 seconds 
+  Import took 0.014660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.316976 seconds.
+  path: Assets/Audio/Characters/Zerg/boss2/ZergFire7.mp3
+  artifactKey: Guid(cd3a6f0a614190b4a837173483767404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Characters/Zerg/boss2/ZergFire7.mp3 using Guid(cd3a6f0a614190b4a837173483767404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9f7bc255eecf11321377443de1b500') in 0.010772 seconds 
+  Import took 0.015280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.657929 seconds.
+  path: Assets/Images/HUD/Sprites
+  artifactKey: Guid(0dcfc254b695a3c42bd73c83fcab066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/HUD/Sprites using Guid(0dcfc254b695a3c42bd73c83fcab066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384668a63f157e435cc9ee72f6e0ae37') in 0.018972 seconds 
+  Import took 0.024682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.904954 seconds.
+  path: Assets/Images/MainMenu/EndLogo.png
+  artifactKey: Guid(bc6202f0e2a02304789bfa123534d132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/MainMenu/EndLogo.png using Guid(bc6202f0e2a02304789bfa123534d132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b48164d9416d36e0415c58020a3d4d') in 0.044678 seconds 
+  Import took 0.048857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.060261 seconds.
+  path: Assets/Images/MainMenu/Logo.png
+  artifactKey: Guid(2eb8520c56f5cdc408ca3292a1edf457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/MainMenu/Logo.png using Guid(2eb8520c56f5cdc408ca3292a1edf457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f474ce3d5ccae3e369bd4ccbc992e3f7') in 0.016709 seconds 
+  Import took 0.020893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.099845 seconds.
+  path: Assets/Images/videos/boss2.mp4
+  artifactKey: Guid(d9f54bb903bbfc04cabf643c88bdde53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/videos/boss2.mp4 using Guid(d9f54bb903bbfc04cabf643c88bdde53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60e2c0668cd74c2e360c047170d175b') in 0.003708 seconds 
+  Import took 0.008087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.432804 seconds.
+  path: Assets/Images/videos/寄生王蟲.mp4
+  artifactKey: Guid(d5a4f6b6f706cfa47a5229cca7a68421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/videos/寄生王蟲.mp4 using Guid(d5a4f6b6f706cfa47a5229cca7a68421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419a2554e973cf7f59df0cd8de11804b') in 0.021949 seconds 
+  Import took 0.025791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.346090 seconds.
+  path: Assets/Images/videos/boss.mp4
+  artifactKey: Guid(d5a4f6b6f706cfa47a5229cca7a68421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/videos/boss.mp4 using Guid(d5a4f6b6f706cfa47a5229cca7a68421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec291fe414c6dafc25b7b8b402342c6e') in 0.002512 seconds 
+  Import took 0.006423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.394383 seconds.
+  path: Assets/Images/videos/Zerg2.mp4
+  artifactKey: Guid(fbe1b3975fd6d0546b16306c241050b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/videos/Zerg2.mp4 using Guid(fbe1b3975fd6d0546b16306c241050b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92486a966ad2c0f7ebdae67262d4434d') in 0.002201 seconds 
+  Import took 0.006032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.138725 seconds.
+  path: Assets/Images/videos/腐化飛蟲.mp4
+  artifactKey: Guid(bde9b13bea47e3a46b286f83475c4acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/videos/腐化飛蟲.mp4 using Guid(bde9b13bea47e3a46b286f83475c4acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30d7ffdb9d2d34673ab0d2880fb3afa') in 0.002503 seconds 
+  Import took 0.007169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.450093 seconds.
+  path: Assets/Images/videos/Zerg3.mp4
+  artifactKey: Guid(bde9b13bea47e3a46b286f83475c4acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/videos/Zerg3.mp4 using Guid(bde9b13bea47e3a46b286f83475c4acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e48285933a6ba08bb4919f6b867a08') in 0.015696 seconds 
+  Import took 0.051073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.169991 seconds.
+  path: Assets/Images/videos/Zerg1.mp4
+  artifactKey: Guid(219678d7d6c9c9d4eaacc62bf29f0530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/videos/Zerg1.mp4 using Guid(219678d7d6c9c9d4eaacc62bf29f0530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8ba870b96353a2027716d0c0244916') in 0.002583 seconds 
+  Import took 0.006847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.921257 seconds.
+  path: Assets/Images/videos/Viking.mp4
+  artifactKey: Guid(59b9c39675a8f584ab1ea22c29de12e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/videos/Viking.mp4 using Guid(59b9c39675a8f584ab1ea22c29de12e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660567ed741207d0dee81caae4112bab') in 0.002771 seconds 
+  Import took 0.006939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.309013 seconds.
+  path: Assets/Images/videos/Adjutant.mp4
+  artifactKey: Guid(fe4dbfb3c47babe438a03c4dffaa5fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/videos/Adjutant.mp4 using Guid(fe4dbfb3c47babe438a03c4dffaa5fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fccc50f24e2f74cff0a274cb27b5175') in 0.001835 seconds 
+  Import took 0.005854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 446.467859 seconds.
+  path: Assets/Images/videos/Boss.mp4
+  artifactKey: Guid(d5a4f6b6f706cfa47a5229cca7a68421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/videos/Boss.mp4 using Guid(d5a4f6b6f706cfa47a5229cca7a68421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e011dac2991ec6dab516078fed57a6') in 0.002125 seconds 
+  Import took 0.006236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.415705 seconds.
+  path: Assets/Images/videos/VideoTexture.renderTexture
+  artifactKey: Guid(fe45644024821ed4b9ebfb20a1dc40ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/videos/VideoTexture.renderTexture using Guid(fe45644024821ed4b9ebfb20a1dc40ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72e9889a2a057cd550ea3995ab55ec1') in 0.010153 seconds 
+  Import took 0.014596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.725409 seconds.
+  path: Assets/Images/videos/Boss2.mp4
+  artifactKey: Guid(d9f54bb903bbfc04cabf643c88bdde53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/videos/Boss2.mp4 using Guid(d9f54bb903bbfc04cabf643c88bdde53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9bd776fe536a93dd86213e7232b3913') in 0.002410 seconds 
+  Import took 0.025745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.299607 seconds.
+  path: Assets/Images/Videos
+  artifactKey: Guid(02a7a3bae2b02c24fa797123fa6e0eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Videos using Guid(02a7a3bae2b02c24fa797123fa6e0eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88996dea0f8625ac32ba9ce5bf98d329') in 0.001674 seconds 
+  Import took 0.006206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.360750 seconds.
+  path: Assets/Materials/Fire/Textures
+  artifactKey: Guid(a33605e59cfb46148b542a4d6384d9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Fire/Textures using Guid(a33605e59cfb46148b542a4d6384d9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30ad198f469b1be2b811a017871c01e') in 0.096744 seconds 
+  Import took 0.100598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.677502 seconds.
+  path: Assets/Materials/Overdrive Ttrigger VFX/Textures
+  artifactKey: Guid(bef5f3e1b7b246f468f6abeeb9b08d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Overdrive Ttrigger VFX/Textures using Guid(bef5f3e1b7b246f468f6abeeb9b08d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ef3659d60e083be0496e901f1428ec') in 0.001737 seconds 
+  Import took 0.005928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.594730 seconds.
+  path: Assets/Materials/Overdrive Ttrigger VFX
+  artifactKey: Guid(ce775a4ea9984694393cfed0c82aba02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Overdrive Ttrigger VFX using Guid(ce775a4ea9984694393cfed0c82aba02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a195359e797986f7113df4abfbbe002d') in 0.011518 seconds 
+  Import took 0.015261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.378815 seconds.
+  path: Assets/Prefab/Item/ShowText_Enegry.prefab
+  artifactKey: Guid(67f09c5a7f4103241a9fa384b364639e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Item/ShowText_Enegry.prefab using Guid(67f09c5a7f4103241a9fa384b364639e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1fcf6496aadcb1a322363ffb5b895ec') in 0.030243 seconds 
+  Import took 0.036409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.004760 seconds.
+  path: Assets/Prefab/Item/ShowText_HP.prefab
+  artifactKey: Guid(4052b9e529154c248a8118b56d80586b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Item/ShowText_HP.prefab using Guid(4052b9e529154c248a8118b56d80586b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fbde5dd517d27b2ed1ddd93d69f37fb') in 0.015814 seconds 
+  Import took 0.020994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.273871 seconds.
+  path: Assets/Prefab/UI/UI Health Bar On Head Player.prefab
+  artifactKey: Guid(ed73a8d748cc32d45ae34f07cc679c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/UI/UI Health Bar On Head Player.prefab using Guid(ed73a8d748cc32d45ae34f07cc679c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3814e7b792e804e57c730af0ecae36') in 0.014318 seconds 
+  Import took 0.019870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/Prefab/UI/UI Health Bar On Head Player.prefab
+  artifactKey: Guid(ed73a8d748cc32d45ae34f07cc679c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/UI/UI Health Bar On Head Player.prefab using Guid(ed73a8d748cc32d45ae34f07cc679c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3814e7b792e804e57c730af0ecae36') in 0.005356 seconds 
+  Import took 0.010016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.643225 seconds.
+  path: Assets/Resources/Cartoon FX
+  artifactKey: Guid(89dc51c1b75c7ea4ca840694bdc2057b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cartoon FX using Guid(89dc51c1b75c7ea4ca840694bdc2057b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c11f495f4a8c35b35bf082ae44f31b5') in 0.001921 seconds 
+  Import took 0.026188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.882245 seconds.
+  path: Assets/Resources/Cartoon FX/Smoke
+  artifactKey: Guid(81c5ace418d7ee044970fda10f3265aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cartoon FX/Smoke using Guid(81c5ace418d7ee044970fda10f3265aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06ce9bcf331858c2ede83cccc7bb946') in 0.001786 seconds 
+  Import took 0.005919 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

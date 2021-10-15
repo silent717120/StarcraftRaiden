@@ -1,0 +1,682 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8654134254779912092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8654134254779912090}
+  - component: {fileID: 8654134254779912091}
+  - component: {fileID: 8654134254779912089}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8654134254779912090
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8654134254779912092}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8654134254779912091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8654134254779912092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ca705fd4f7a3ba4bbf6938680dec685, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameState: 0
+  spawnEnemy: 1
+  waveUI: {fileID: 0}
+  bossUI: {fileID: 0}
+  bossHP_UI: {fileID: 0}
+  bossName_UI: {fileID: 0}
+  CaptionsUI: {fileID: 0}
+  Captions_Text: {fileID: 0}
+  TextAudio:
+    audioClip: {fileID: 8300000, guid: a58f273f7c0944d4fb543a6c64470d54, type: 3}
+    volume: 0.2
+  videoplayer: {fileID: 0}
+  WaveNumber: 16
+  TimeBetweenWaves: 3
+  AllStage:
+  - IsBoss: 0
+    TextTime: 2
+    ShowTexts:
+    - "\u81EA\u6BBA\u87F2\u4F86\u8972 !"
+    PhotoVideo: {fileID: 32900000, guid: 219678d7d6c9c9d4eaacc62bf29f0530, type: 3}
+    PlayAudio:
+      audioClip: {fileID: 8300000, guid: 97a0ff9fe740db1439d13f20b1579d73, type: 3}
+      volume: 0.8
+    StageAnimator: {fileID: 0}
+    IsRandom: 0
+    minEnemyAmount: 0
+    maxEnemyAmount: 0
+    ememyNum: 0c000000
+    ememyPrefabs:
+    - {fileID: 2321132340765648329, guid: 3c312d312d4b16844a2cac8ff34b550d, type: 3}
+    SpecialEnemy: {fileID: 0}
+    timeBetweenSpawns: 0.65
+  - IsBoss: 0
+    TextTime: 0
+    ShowTexts: []
+    PhotoVideo: {fileID: 0}
+    PlayAudio:
+      audioClip: {fileID: 0}
+      volume: 0
+    StageAnimator: {fileID: 0}
+    IsRandom: 1
+    minEnemyAmount: 20
+    maxEnemyAmount: 20
+    ememyNum: 
+    ememyPrefabs:
+    - {fileID: 2321132340765648329, guid: 3c312d312d4b16844a2cac8ff34b550d, type: 3}
+    - {fileID: 5964596129103017982, guid: bd3c418d08dea4346a9105f74943e829, type: 3}
+    SpecialEnemy: {fileID: 0}
+    timeBetweenSpawns: 0.5
+  - IsBoss: 0
+    TextTime: 0
+    ShowTexts: []
+    PhotoVideo: {fileID: 0}
+    PlayAudio:
+      audioClip: {fileID: 0}
+      volume: 0
+    StageAnimator: {fileID: 0}
+    IsRandom: 0
+    minEnemyAmount: 0
+    maxEnemyAmount: 0
+    ememyNum: 
+    ememyPrefabs: []
+    SpecialEnemy: {fileID: 0}
+    timeBetweenSpawns: 0
+  - IsBoss: 0
+    TextTime: 0
+    ShowTexts: []
+    PhotoVideo: {fileID: 0}
+    PlayAudio:
+      audioClip: {fileID: 0}
+      volume: 0
+    StageAnimator: {fileID: 0}
+    IsRandom: 0
+    minEnemyAmount: 0
+    maxEnemyAmount: 0
+    ememyNum: 
+    ememyPrefabs: []
+    SpecialEnemy: {fileID: 0}
+    timeBetweenSpawns: 0.3
+  - IsBoss: 0
+    TextTime: 2
+    ShowTexts:
+    - "\u98DB\u87B3\u4F86\u8972 !"
+    PhotoVideo: {fileID: 32900000, guid: fbe1b3975fd6d0546b16306c241050b6, type: 3}
+    PlayAudio:
+      audioClip: {fileID: 8300000, guid: cfcfe9ef8d277ea45867780dfdfbb07e, type: 3}
+      volume: 0.8
+    StageAnimator: {fileID: 0}
+    IsRandom: 0
+    minEnemyAmount: 20
+    maxEnemyAmount: 20
+    ememyNum: 0f000000
+    ememyPrefabs:
+    - {fileID: 6953654727594776086, guid: 928fbcd5056e1e748a011a77060bce9b, type: 3}
+    SpecialEnemy: {fileID: 0}
+    timeBetweenSpawns: 1
+  - IsBoss: 0
+    TextTime: 0
+    ShowTexts: []
+    PhotoVideo: {fileID: 0}
+    PlayAudio:
+      audioClip: {fileID: 0}
+      volume: 0
+    StageAnimator: {fileID: 0}
+    IsRandom: 0
+    minEnemyAmount: 0
+    maxEnemyAmount: 0
+    ememyNum: 
+    ememyPrefabs: []
+    SpecialEnemy: {fileID: 0}
+    timeBetweenSpawns: 0
+  - IsBoss: 0
+    TextTime: 0
+    ShowTexts: []
+    PhotoVideo: {fileID: 0}
+    PlayAudio:
+      audioClip: {fileID: 0}
+      volume: 0
+    StageAnimator: {fileID: 0}
+    IsRandom: 0
+    minEnemyAmount: 0
+    maxEnemyAmount: 0
+    ememyNum: 0a0000000a000000
+    ememyPrefabs:
+    - {fileID: 6953654727594776086, guid: 928fbcd5056e1e748a011a77060bce9b, type: 3}
+    - {fileID: 5964596129103017982, guid: bd3c418d08dea4346a9105f74943e829, type: 3}
+    SpecialEnemy: {fileID: 0}
+    timeBetweenSpawns: 0.5
+  - IsBoss: 0
+    TextTime: 2
+    ShowTexts:
+    - "\u8150\u5316\u98DB\u87F2\u4F86\u8972 !"
+    PhotoVideo: {fileID: 32900000, guid: bde9b13bea47e3a46b286f83475c4acd, type: 3}
+    PlayAudio:
+      audioClip: {fileID: 8300000, guid: 26a29b856194a6c4d9dafbd372d56a33, type: 3}
+      volume: 0.8
+    StageAnimator: {fileID: 0}
+    IsRandom: 0
+    minEnemyAmount: 0
+    maxEnemyAmount: 0
+    ememyNum: 03000000
+    ememyPrefabs:
+    - {fileID: 6246419723011086716, guid: c05996a2e14aa7940ad58f38a3ed434b, type: 3}
+    SpecialEnemy: {fileID: 0}
+    timeBetweenSpawns: 2.5
+  - IsBoss: 0
+    TextTime: 0
+    ShowTexts: []
+    PhotoVideo: {fileID: 0}
+    PlayAudio:
+      audioClip: {fileID: 0}
+      volume: 0
+    StageAnimator: {fileID: 0}
+    IsRandom: 0
+    minEnemyAmount: 0
+    maxEnemyAmount: 0
+    ememyNum: 03000000060000000c000000
+    ememyPrefabs:
+    - {fileID: 6246419723011086716, guid: c05996a2e14aa7940ad58f38a3ed434b, type: 3}
+    - {fileID: 6953654727594776086, guid: 928fbcd5056e1e748a011a77060bce9b, type: 3}
+    - {fileID: 5964596129103017982, guid: bd3c418d08dea4346a9105f74943e829, type: 3}
+    SpecialEnemy: {fileID: 0}
+    timeBetweenSpawns: 0.5
+  - IsBoss: 1
+    TextTime: 2
+    ShowTexts:
+    - "\u5BC4\u751F\u738B\u87F2\u4F86\u8972 !"
+    PhotoVideo: {fileID: 32900000, guid: d5a4f6b6f706cfa47a5229cca7a68421, type: 3}
+    PlayAudio:
+      audioClip: {fileID: 8300000, guid: 4e12ac7a827642845b4f41a0bd15e28c, type: 3}
+      volume: 0.8
+    StageAnimator: {fileID: 0}
+    IsRandom: 0
+    minEnemyAmount: 0
+    maxEnemyAmount: 0
+    ememyNum: 010000000600000006000000
+    ememyPrefabs:
+    - {fileID: 4449363128933606999, guid: 1dc0c9df77ae43d48a40bbcd76e5b8dd, type: 3}
+    - {fileID: 2321132340765648329, guid: 3c312d312d4b16844a2cac8ff34b550d, type: 3}
+    - {fileID: 5964596129103017982, guid: bd3c418d08dea4346a9105f74943e829, type: 3}
+    SpecialEnemy: {fileID: 0}
+    timeBetweenSpawns: 2
+  - IsBoss: 0
+    TextTime: 2
+    ShowTexts:
+    - "\u5927\u91CF\u81EA\u6BBA\u87F2\u7FA4\u63A5\u8FD1\u4E2D"
+    PhotoVideo: {fileID: 32900000, guid: fe4dbfb3c47babe438a03c4dffaa5fee, type: 3}
+    PlayAudio:
+      audioClip: {fileID: 8300000, guid: 751d7866c4ff90842821d27f2249e1f4, type: 3}
+      volume: 0.8
+    StageAnimator: {fileID: 0}
+    IsRandom: 0
+    minEnemyAmount: 0
+    maxEnemyAmount: 0
+    ememyNum: 0a0000000a0000000a0000000a00000014000000
+    ememyPrefabs:
+    - {fileID: 5964596129103017982, guid: bd3c418d08dea4346a9105f74943e829, type: 3}
+    - {fileID: 2321132340765648329, guid: 3c312d312d4b16844a2cac8ff34b550d, type: 3}
+    - {fileID: 5964596129103017982, guid: bd3c418d08dea4346a9105f74943e829, type: 3}
+    - {fileID: 2321132340765648329, guid: 3c312d312d4b16844a2cac8ff34b550d, type: 3}
+    - {fileID: 5964596129103017982, guid: bd3c418d08dea4346a9105f74943e829, type: 3}
+    SpecialEnemy: {fileID: 0}
+    timeBetweenSpawns: 0.1
+  - IsBoss: 0
+    TextTime: 0
+    ShowTexts: []
+    PhotoVideo: {fileID: 0}
+    PlayAudio:
+      audioClip: {fileID: 0}
+      volume: 0
+    StageAnimator: {fileID: 0}
+    IsRandom: 0
+    minEnemyAmount: 0
+    maxEnemyAmount: 0
+    ememyNum: 
+    ememyPrefabs: []
+    SpecialEnemy: {fileID: 0}
+    timeBetweenSpawns: 0
+  - IsBoss: 0
+    TextTime: 0
+    ShowTexts: []
+    PhotoVideo: {fileID: 0}
+    PlayAudio:
+      audioClip: {fileID: 0}
+      volume: 0
+    StageAnimator: {fileID: 0}
+    IsRandom: 0
+    minEnemyAmount: 0
+    maxEnemyAmount: 0
+    ememyNum: 
+    ememyPrefabs: []
+    SpecialEnemy: {fileID: 0}
+    timeBetweenSpawns: 0
+  - IsBoss: 0
+    TextTime: 2
+    ShowTexts:
+    - "\u5DE8\u578B\u81EA\u6BBA\u87F2\u4F86\u8972 !"
+    PhotoVideo: {fileID: 32900000, guid: fe4dbfb3c47babe438a03c4dffaa5fee, type: 3}
+    PlayAudio:
+      audioClip: {fileID: 8300000, guid: 751d7866c4ff90842821d27f2249e1f4, type: 3}
+      volume: 0.8
+    StageAnimator: {fileID: 0}
+    IsRandom: 0
+    minEnemyAmount: 0
+    maxEnemyAmount: 0
+    ememyNum: 010000000500000001000000
+    ememyPrefabs:
+    - {fileID: 5597995192209927406, guid: 32693acccaab9ce4e808a8aefa9b5460, type: 3}
+    - {fileID: 6953654727594776086, guid: 928fbcd5056e1e748a011a77060bce9b, type: 3}
+    - {fileID: 5597995192209927406, guid: 32693acccaab9ce4e808a8aefa9b5460, type: 3}
+    SpecialEnemy: {fileID: 0}
+    timeBetweenSpawns: 2
+  - IsBoss: 1
+    TextTime: 2
+    ShowTexts:
+    - "\u5229\u7DAD\u5766\u63A5\u8FD1\u4E2D"
+    PhotoVideo: {fileID: 32900000, guid: d9f54bb903bbfc04cabf643c88bdde53, type: 3}
+    PlayAudio:
+      audioClip: {fileID: 8300000, guid: 17bad3932067e0442aaa43d49a3d97be, type: 3}
+      volume: 0.8
+    StageAnimator: {fileID: 0}
+    IsRandom: 0
+    minEnemyAmount: 0
+    maxEnemyAmount: 0
+    ememyNum: 010000000a0000000500000002000000
+    ememyPrefabs:
+    - {fileID: 6971926733246448596, guid: e4c288e84a7de1b4c87a0cc5100287d9, type: 3}
+    - {fileID: 2321132340765648329, guid: 3c312d312d4b16844a2cac8ff34b550d, type: 3}
+    - {fileID: 6953654727594776086, guid: 928fbcd5056e1e748a011a77060bce9b, type: 3}
+    - {fileID: 6246419723011086716, guid: c05996a2e14aa7940ad58f38a3ed434b, type: 3}
+    SpecialEnemy: {fileID: 0}
+    timeBetweenSpawns: 2
+  - IsBoss: 0
+    TextTime: 2
+    ShowTexts:
+    - "\u9032\u5165\u5730\u7344\u6A21\u5F0F !"
+    - "\u66F4\u5F37\u58EF\u5147\u731B\u7684\u87F2\u7FA4\u5373\u5C07\u4F86\u8972 !"
+    PhotoVideo: {fileID: 32900000, guid: 59b9c39675a8f584ab1ea22c29de12e0, type: 3}
+    PlayAudio:
+      audioClip: {fileID: 8300000, guid: 1f57fae4794a7ca49b7874d947577e6b, type: 3}
+      volume: 0.7
+    StageAnimator: {fileID: 0}
+    IsRandom: 0
+    minEnemyAmount: 0
+    maxEnemyAmount: 0
+    ememyNum: 140000000800000003000000
+    ememyPrefabs:
+    - {fileID: 5964596129103017982, guid: bd3c418d08dea4346a9105f74943e829, type: 3}
+    - {fileID: 6953654727594776086, guid: 928fbcd5056e1e748a011a77060bce9b, type: 3}
+    - {fileID: 6246419723011086716, guid: c05996a2e14aa7940ad58f38a3ed434b, type: 3}
+    SpecialEnemy: {fileID: 2749549940348950233, guid: a5533335db0de9141b10639b917bdee4, type: 3}
+    timeBetweenSpawns: 0.4
+  - IsBoss: 0
+    TextTime: 0
+    ShowTexts: []
+    PhotoVideo: {fileID: 0}
+    PlayAudio:
+      audioClip: {fileID: 0}
+      volume: 0
+    StageAnimator: {fileID: 0}
+    IsRandom: 1
+    minEnemyAmount: 10
+    maxEnemyAmount: 15
+    ememyNum: 
+    ememyPrefabs:
+    - {fileID: 5964596129103017982, guid: bd3c418d08dea4346a9105f74943e829, type: 3}
+    - {fileID: 6953654727594776086, guid: 928fbcd5056e1e748a011a77060bce9b, type: 3}
+    - {fileID: 6246419723011086716, guid: c05996a2e14aa7940ad58f38a3ed434b, type: 3}
+    SpecialEnemy: {fileID: 2749549940348950233, guid: a5533335db0de9141b10639b917bdee4, type: 3}
+    timeBetweenSpawns: 0.5
+  - IsBoss: 0
+    TextTime: 0
+    ShowTexts: []
+    PhotoVideo: {fileID: 0}
+    PlayAudio:
+      audioClip: {fileID: 0}
+      volume: 0
+    StageAnimator: {fileID: 0}
+    IsRandom: 0
+    minEnemyAmount: 10
+    maxEnemyAmount: 15
+    ememyNum: 1e0000000500000003000000
+    ememyPrefabs:
+    - {fileID: 5964596129103017982, guid: bd3c418d08dea4346a9105f74943e829, type: 3}
+    - {fileID: 6953654727594776086, guid: 928fbcd5056e1e748a011a77060bce9b, type: 3}
+    - {fileID: 6246419723011086716, guid: c05996a2e14aa7940ad58f38a3ed434b, type: 3}
+    SpecialEnemy: {fileID: 5597995192209927406, guid: 32693acccaab9ce4e808a8aefa9b5460, type: 3}
+    timeBetweenSpawns: 0.5
+  - IsBoss: 0
+    TextTime: 0
+    ShowTexts: []
+    PhotoVideo: {fileID: 0}
+    PlayAudio:
+      audioClip: {fileID: 0}
+      volume: 0
+    StageAnimator: {fileID: 0}
+    IsRandom: 1
+    minEnemyAmount: 10
+    maxEnemyAmount: 15
+    ememyNum: 
+    ememyPrefabs:
+    - {fileID: 5964596129103017982, guid: bd3c418d08dea4346a9105f74943e829, type: 3}
+    - {fileID: 6953654727594776086, guid: 928fbcd5056e1e748a011a77060bce9b, type: 3}
+    - {fileID: 6246419723011086716, guid: c05996a2e14aa7940ad58f38a3ed434b, type: 3}
+    SpecialEnemy: {fileID: 2749549940348950233, guid: a5533335db0de9141b10639b917bdee4, type: 3}
+    timeBetweenSpawns: 0.5
+  - IsBoss: 0
+    TextTime: 0
+    ShowTexts: []
+    PhotoVideo: {fileID: 0}
+    PlayAudio:
+      audioClip: {fileID: 0}
+      volume: 0
+    StageAnimator: {fileID: 0}
+    IsRandom: 1
+    minEnemyAmount: 10
+    maxEnemyAmount: 15
+    ememyNum: 
+    ememyPrefabs:
+    - {fileID: 5964596129103017982, guid: bd3c418d08dea4346a9105f74943e829, type: 3}
+    - {fileID: 6953654727594776086, guid: 928fbcd5056e1e748a011a77060bce9b, type: 3}
+    - {fileID: 6246419723011086716, guid: c05996a2e14aa7940ad58f38a3ed434b, type: 3}
+    - {fileID: 6246419723011086716, guid: c05996a2e14aa7940ad58f38a3ed434b, type: 3}
+    SpecialEnemy: {fileID: 2749549940348950233, guid: a5533335db0de9141b10639b917bdee4, type: 3}
+    timeBetweenSpawns: 0.5
+  - IsBoss: 0
+    TextTime: 0
+    ShowTexts: []
+    PhotoVideo: {fileID: 0}
+    PlayAudio:
+      audioClip: {fileID: 0}
+      volume: 0
+    StageAnimator: {fileID: 0}
+    IsRandom: 1
+    minEnemyAmount: 8
+    maxEnemyAmount: 15
+    ememyNum: 
+    ememyPrefabs:
+    - {fileID: 5964596129103017982, guid: bd3c418d08dea4346a9105f74943e829, type: 3}
+    - {fileID: 6953654727594776086, guid: 928fbcd5056e1e748a011a77060bce9b, type: 3}
+    - {fileID: 6246419723011086716, guid: c05996a2e14aa7940ad58f38a3ed434b, type: 3}
+    SpecialEnemy: {fileID: 0}
+    timeBetweenSpawns: 0.4
+  - IsBoss: 0
+    TextTime: 0
+    ShowTexts: []
+    PhotoVideo: {fileID: 0}
+    PlayAudio:
+      audioClip: {fileID: 0}
+      volume: 0
+    StageAnimator: {fileID: 0}
+    IsRandom: 1
+    minEnemyAmount: 8
+    maxEnemyAmount: 15
+    ememyNum: 
+    ememyPrefabs:
+    - {fileID: 5964596129103017982, guid: bd3c418d08dea4346a9105f74943e829, type: 3}
+    - {fileID: 6953654727594776086, guid: 928fbcd5056e1e748a011a77060bce9b, type: 3}
+    - {fileID: 6246419723011086716, guid: c05996a2e14aa7940ad58f38a3ed434b, type: 3}
+    SpecialEnemy: {fileID: 0}
+    timeBetweenSpawns: 0.4
+  - IsBoss: 0
+    TextTime: 0
+    ShowTexts: []
+    PhotoVideo: {fileID: 0}
+    PlayAudio:
+      audioClip: {fileID: 0}
+      volume: 0
+    StageAnimator: {fileID: 0}
+    IsRandom: 0
+    minEnemyAmount: 0
+    maxEnemyAmount: 0
+    ememyNum: 
+    ememyPrefabs: []
+    SpecialEnemy: {fileID: 0}
+    timeBetweenSpawns: 0.4
+  - IsBoss: 0
+    TextTime: 0
+    ShowTexts: []
+    PhotoVideo: {fileID: 0}
+    PlayAudio:
+      audioClip: {fileID: 0}
+      volume: 0
+    StageAnimator: {fileID: 0}
+    IsRandom: 1
+    minEnemyAmount: 8
+    maxEnemyAmount: 15
+    ememyNum: 
+    ememyPrefabs:
+    - {fileID: 5964596129103017982, guid: bd3c418d08dea4346a9105f74943e829, type: 3}
+    - {fileID: 6246419723011086716, guid: c05996a2e14aa7940ad58f38a3ed434b, type: 3}
+    - {fileID: 6953654727594776086, guid: 928fbcd5056e1e748a011a77060bce9b, type: 3}
+    SpecialEnemy: {fileID: 0}
+    timeBetweenSpawns: 0.4
+  - IsBoss: 0
+    TextTime: 0
+    ShowTexts: []
+    PhotoVideo: {fileID: 0}
+    PlayAudio:
+      audioClip: {fileID: 0}
+      volume: 0
+    StageAnimator: {fileID: 0}
+    IsRandom: 1
+    minEnemyAmount: 8
+    maxEnemyAmount: 15
+    ememyNum: 
+    ememyPrefabs:
+    - {fileID: 5964596129103017982, guid: bd3c418d08dea4346a9105f74943e829, type: 3}
+    - {fileID: 6246419723011086716, guid: c05996a2e14aa7940ad58f38a3ed434b, type: 3}
+    - {fileID: 6953654727594776086, guid: 928fbcd5056e1e748a011a77060bce9b, type: 3}
+    SpecialEnemy: {fileID: 0}
+    timeBetweenSpawns: 0.4
+  - IsBoss: 0
+    TextTime: 0
+    ShowTexts: []
+    PhotoVideo: {fileID: 0}
+    PlayAudio:
+      audioClip: {fileID: 0}
+      volume: 0
+    StageAnimator: {fileID: 0}
+    IsRandom: 1
+    minEnemyAmount: 10
+    maxEnemyAmount: 20
+    ememyNum: 
+    ememyPrefabs:
+    - {fileID: 5964596129103017982, guid: bd3c418d08dea4346a9105f74943e829, type: 3}
+    - {fileID: 6246419723011086716, guid: c05996a2e14aa7940ad58f38a3ed434b, type: 3}
+    - {fileID: 6953654727594776086, guid: 928fbcd5056e1e748a011a77060bce9b, type: 3}
+    - {fileID: 2749549940348950233, guid: a5533335db0de9141b10639b917bdee4, type: 3}
+    SpecialEnemy: {fileID: 5597995192209927406, guid: 32693acccaab9ce4e808a8aefa9b5460, type: 3}
+    timeBetweenSpawns: 0.4
+  - IsBoss: 0
+    TextTime: 0
+    ShowTexts: []
+    PhotoVideo: {fileID: 0}
+    PlayAudio:
+      audioClip: {fileID: 0}
+      volume: 0
+    StageAnimator: {fileID: 0}
+    IsRandom: 1
+    minEnemyAmount: 12
+    maxEnemyAmount: 25
+    ememyNum: 
+    ememyPrefabs:
+    - {fileID: 5964596129103017982, guid: bd3c418d08dea4346a9105f74943e829, type: 3}
+    - {fileID: 6246419723011086716, guid: c05996a2e14aa7940ad58f38a3ed434b, type: 3}
+    - {fileID: 6953654727594776086, guid: 928fbcd5056e1e748a011a77060bce9b, type: 3}
+    - {fileID: 5597995192209927406, guid: 32693acccaab9ce4e808a8aefa9b5460, type: 3}
+    - {fileID: 2749549940348950233, guid: a5533335db0de9141b10639b917bdee4, type: 3}
+    SpecialEnemy: {fileID: 0}
+    timeBetweenSpawns: 0.3
+  - IsBoss: 0
+    TextTime: 0
+    ShowTexts: []
+    PhotoVideo: {fileID: 0}
+    PlayAudio:
+      audioClip: {fileID: 0}
+      volume: 0
+    StageAnimator: {fileID: 0}
+    IsRandom: 0
+    minEnemyAmount: 0
+    maxEnemyAmount: 0
+    ememyNum: 02000000
+    ememyPrefabs:
+    - {fileID: 31151819209210336, guid: b31473f17cba2774697b7344e4c5c893, type: 3}
+    SpecialEnemy: {fileID: 0}
+    timeBetweenSpawns: 3
+  - IsBoss: 0
+    TextTime: 0
+    ShowTexts: []
+    PhotoVideo: {fileID: 0}
+    PlayAudio:
+      audioClip: {fileID: 0}
+      volume: 0
+    StageAnimator: {fileID: 0}
+    IsRandom: 1
+    minEnemyAmount: 12
+    maxEnemyAmount: 25
+    ememyNum: 
+    ememyPrefabs:
+    - {fileID: 5964596129103017982, guid: bd3c418d08dea4346a9105f74943e829, type: 3}
+    - {fileID: 6246419723011086716, guid: c05996a2e14aa7940ad58f38a3ed434b, type: 3}
+    - {fileID: 6953654727594776086, guid: 928fbcd5056e1e748a011a77060bce9b, type: 3}
+    - {fileID: 5597995192209927406, guid: 32693acccaab9ce4e808a8aefa9b5460, type: 3}
+    - {fileID: 2749549940348950233, guid: a5533335db0de9141b10639b917bdee4, type: 3}
+    SpecialEnemy: {fileID: 0}
+    timeBetweenSpawns: 0.3
+  - IsBoss: 1
+    TextTime: 2
+    ShowTexts:
+    - "\u8207\u87F2\u7FA4\u6700\u5F8C\u4E00\u6230 !"
+    PhotoVideo: {fileID: 32900000, guid: 59b9c39675a8f584ab1ea22c29de12e0, type: 3}
+    PlayAudio:
+      audioClip: {fileID: 8300000, guid: e75b21cc2cdcc354782edd1cf3a5221e, type: 3}
+      volume: 0.7
+    StageAnimator: {fileID: 0}
+    IsRandom: 0
+    minEnemyAmount: 0
+    maxEnemyAmount: 0
+    ememyNum: 0100000001000000
+    ememyPrefabs:
+    - {fileID: 4449363128933606999, guid: 1dc0c9df77ae43d48a40bbcd76e5b8dd, type: 3}
+    - {fileID: 6971926733246448596, guid: e4c288e84a7de1b4c87a0cc5100287d9, type: 3}
+    SpecialEnemy: {fileID: 31151819209210336, guid: b31473f17cba2774697b7344e4c5c893, type: 3}
+    timeBetweenSpawns: 2
+  TitleContent:
+  - "\u8B66\u544A\uFF01\u60A8\u8207\u7DAD\u4EAC\u6230\u6A5F\u4E2D\u968A\u5931\u806F"
+  - "\u524D\u65B9\u611F\u61C9\u5230\u87F2\u65CF\u8266\u968A\u5373\u5C07\u4F86\u8972\uFF01"
+  TitleAudio:
+    audioClip: {fileID: 8300000, guid: 751d7866c4ff90842821d27f2249e1f4, type: 3}
+    volume: 0.5
+  TitleVideo: {fileID: 32900000, guid: fe4dbfb3c47babe438a03c4dffaa5fee, type: 3}
+  EnemyPower: 1
+  GameOverAudio:
+    audioClip: {fileID: 8300000, guid: 79c729442a443724cb6e70cbc4cfd7c8, type: 3}
+    volume: 0.7
+  IsCaptionEnd: 0
+  IsSpawnEnd: 0
+--- !u!114 &8654134254779912089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8654134254779912092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9871d1758c66cb345a5c69c18e5d655d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TotalTime: 0
+  KillNum: 0
+  GameOverUI: {fileID: 0}
+  ScoreText: {fileID: 0}
+  LevelText: {fileID: 0}
+  LevelImage: {fileID: 0}
+  KillText: {fileID: 0}
+  TimeText: {fileID: 0}
+  EnableScoreUI: {fileID: 0}
+  RankingUI: {fileID: 0}
+  RankingItemsUI: {fileID: 0}
+  PlayerScoreText: {fileID: 0}
+  HighScoreUI: {fileID: 0}
+  HighScoreNameInput: {fileID: 0}
+  filepath: 
+  RankList:
+  - Ranking: 0
+    Score: 0
+    Name: 
+    Level: 0
+    Kill: 0
+  - Ranking: 0
+    Score: 0
+    Name: 
+    Level: 0
+    Kill: 0
+  - Ranking: 0
+    Score: 0
+    Name: 
+    Level: 0
+    Kill: 0
+  - Ranking: 0
+    Score: 0
+    Name: 
+    Level: 0
+    Kill: 0
+  - Ranking: 0
+    Score: 0
+    Name: 
+    Level: 0
+    Kill: 0
+  - Ranking: 0
+    Score: 0
+    Name: 
+    Level: 0
+    Kill: 0
+  - Ranking: 0
+    Score: 0
+    Name: 
+    Level: 0
+    Kill: 0
+  - Ranking: 0
+    Score: 0
+    Name: 
+    Level: 0
+    Kill: 0
+  - Ranking: 0
+    Score: 0
+    Name: 
+    Level: 0
+    Kill: 0
+  - Ranking: 0
+    Score: 0
+    Name: 
+    Level: 0
+    Kill: 0

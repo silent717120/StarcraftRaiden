@@ -1,0 +1,62 @@
+<RankingInfo Version="0">
+  <Item Num="1">
+    <Score>20000</Score>
+    <Name>Tony</Name>
+    <Level>7</Level>
+    <Kill>321</Kill>
+  </Item>
+  <Item Num="2">
+    <Score>46450</Score>
+    <Name>GOGO</Name>
+    <Level>12</Level>
+    <Kill>562</Kill>
+  </Item>
+  <Item Num="2">
+    <Score>2800</Score>
+    <Name>雷諾</Name>
+    <Level>5</Level>
+    <Kill>15</Kill>
+  </Item>
+  <Item Num="2">
+    <Score>400</Score>
+    <Name>Kubo</Name>
+    <Level>1</Level>
+    <Kill>8</Kill>
+  </Item>
+  <Item Num="3">
+    <Score>100</Score>
+    <Name>TestPlayer</Name>
+    <Level>1</Level>
+    <Kill>2</Kill>
+  </Item>
+  <Item Num="4">
+    <Score>50</Score>
+    <Name>RK</Name>
+    <Level>1</Level>
+    <Kill>1</Kill>
+  </Item>
+  <Item Num="5">
+    <Score>50</Score>
+    <Name>波比</Name>
+    <Level>1</Level>
+    <Kill>1</Kill>
+  </Item>
+  <Item Num="6">
+    <Score>30</Score>
+    <Name>海拉</Name>
+    <Level>3</Level>
+    <Kill>1</Kill>
+  </Item>
+  <Item Num="7">
+    <Score>0</Score>
+    <Name>No Name</Name>
+    <Level>0</Level>
+    <Kill>0</Kill>
+  </Item>
+  <Item Num="8">
+    <Score>0</Score>
+    <Name>No Name</Name>
+    <Level>0</Level>
+    <Kill>0</Kill>
+  </Item>
+</RankingInfo>
